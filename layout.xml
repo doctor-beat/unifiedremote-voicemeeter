@@ -4,7 +4,7 @@
 		<button text="VM audio restart" ontap="restart" />
 	</row>
 	<row>
-		<button text="Command 2" ontap="command2" />
+		<button text="Exit window" ontap="exit" />
 	</row>
 	<row>
 		<button text="Command 3" ontap="command3" />
