@@ -10,7 +10,7 @@ local script = libs.script;
 
 --@help Command 1
 actions.restart = function ()
-	script.default("%programfiles(x86)%\VB\Voicemeeter\\voicemeeter.exe -R");
+	script.default("%programfiles(x86)%\\VB\\Voicemeeter\\voicemeeter.exe -R");
 end
 
 
