@@ -11,7 +11,7 @@ local keyboard = libs.keyboard;
 
 --@help Command 1
 actions.restart = function ()
-	os.start("%programfiles(x86)%\VB\Voicemeeter\\voicemeeter.exe", "-R");
+	os.start("%programfiles(x86)%\\VB\\Voicemeeter\\voicemeeter.exe", "-R");
 end
 
 actions.restart2 = function ()
