@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout>
 	<row>
-		<button text="VM audio restart" ontap="restart" />
+		<button text="VM audio restart" ontap="restart" color="blue"/>
+		<button text="VM audio restart 2" ontap="restart2" />
 	</row>
 	<row>
-		<button text="Exit window" ontap="exit" />
+		<button text="Exit window" ontap="exit" color="red" weight="2" />
 	</row>
 	<row>
-		<button text="Command 3" ontap="command3" />
+		<button text="Alt tab switch" ontap="alttab" />
+		<button text="Enter unlock" ontap="enter" />
+	</row>
+	<row>
+		<button text="Space" ontap="space" color="green" weight="2" />
+	</row>
+	<row>
+		<button text="Escape" ontap="escape" />
+		<button text="Taskmgr" ontap="taskmgr" />
 	</row>
 </layout>
