@@ -24,7 +24,7 @@ actions.exit = function ()
 end
 
 actions.alttab  = function ()
-	keyboard.stroke("alt", "tab");
+	keyboard.stroke("alt", "shift", "tab");
 end
 
 actions.enter  = function ()
