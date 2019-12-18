@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="layout.xslt" ?>
 <layout>
 	<row>
 		<button text="VM audio restart" ontap="restart" color="#80e5ff" image="Audio-512.png"/>
