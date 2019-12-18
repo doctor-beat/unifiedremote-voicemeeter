@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout>
 	<row>
-		<button text="VM audio restart" ontap="restart" color="blue" image="Audio-512.png"/>
+		<button text="VM audio restart" ontap="restart" color="#80e5ff" image="Audio-512.png"/>
 	</row>
 	<row>
-		<button text="Enter/unlock" ontap="enter"  image="Enter-512.png"/>
+		<button text="Enter/unlock" ontap="enter" color="#ffff99" image="Enter-512.png"/>
 	</row>
 	<row>
 		<button text="Alt tab switch" ontap="alttab"  image="Tab-512.png" />
-		<button text="Exit window" ontap="exit" color="red" weight="1" image="Exit-512.png" />
+		<button text="Exit window" ontap="exit" color="#ff9999" weight="1" image="Exit-512.png" />
 	</row>
 	<row>
-		<button text="Space" ontap="space" color="green" weight="1" image="Space-512.png" />
+		<button text="Space" ontap="space" color="#99ff99" weight="1" image="Space-512.png" />
+	</row>
+	<row>
+		<button text="Hibernate" ontap="hibernate" color="#80e5ff" weight="1" image="Moon-512.png" />
 	</row>
 	<row>
 		<button text="Escape" ontap="escape" image="Escape-512.png" />

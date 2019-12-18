@@ -43,3 +43,23 @@ actions.taskmgr  = function ()
 	keyboard.stroke("ctrl", "shift", "esc");
 end
 
+-- Native Windows Stuff
+local ffi = require("ffi");
+ffi.cdef[[
+bool LockWorkStation();
+int ExitWindowsEx(int uFlags, int dwReason);
+bool SetSuspendState(bool hibernate, bool forceCritical, bool disableWakeEvent);
+]]
+local PowrProf = ffi.load("PowrProf");
+
+--@help Put system in sleep state
+actions.sleep = function ()
+	PowrProf.SetSuspendState(false, true, false);
+end
+
+--@help Put system in hibernate state
+actions.hibernate = function ()
+	PowrProf.SetSuspendState(true, true, false);
+end
+
+
