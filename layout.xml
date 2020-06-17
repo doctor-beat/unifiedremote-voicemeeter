@@ -15,6 +15,7 @@
 		<button text="Space" ontap="space" color="#99ff99" weight="1" image="Space-512.png" />
 	</row>
 	<row>
+		<button text="WOL" onTap="@wol" />
 		<button text="Hibernate" ontap="hibernate" color="#80e5ff" weight="1" image="Moon-512.png" />
 	</row>
 	<row>
